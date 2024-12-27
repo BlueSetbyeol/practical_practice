@@ -1,0 +1,12 @@
+.leaflet-container {
+  height: 70vh;
+  width: 90vw;
+}
+
+.leaflet-tile-container {
+  width: 70vh;
+}
+
+.image_loc {
+  height: 5vh;
+}
