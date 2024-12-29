@@ -26,15 +26,18 @@ body {
 }
 
 header {
-  height: 5vh;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #468189;
 }
 
-nav ul {
+nav {
+  height: 8vh;
   display: flex;
-  justify-content: end;
-  gap: 1rem;
-  list-style: none;
-  height: 10vh;
+  align-items: center;
 }
 
 main {
@@ -42,7 +45,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 85vh;
 }
 
 footer {

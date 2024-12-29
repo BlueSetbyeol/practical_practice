@@ -1,0 +1,54 @@
+.book-title {
+  margin: 1vh 0;
+}
+
+.book-question {
+  height: 15vh;
+  padding-top: 20px;
+}
+
+.book-question label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type_book {
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+}
+
+.book-button {
+  width: 70px;
+  height: 30px;
+  background-color: #468189;
+  border: #346268;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.book-suggestion {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80vw;
+  text-align: center;
+}
+
+.book-demand {
+  grid-column: 1 / 4;
+}
