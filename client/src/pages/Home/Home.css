@@ -1,0 +1,23 @@
+.hereWeGo {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  gap: 10em;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inspriation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whereTo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
