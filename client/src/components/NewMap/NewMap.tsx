@@ -3,6 +3,7 @@ import icon from "../../assets/icons/pin.png";
 import "leaflet/dist/leaflet.css";
 import "./NewMap.css";
 import { Icon } from "leaflet";
+import LocationMarker from "../LocationMarker/LocationMarker";
 
 const ExploringMap = [
   {
@@ -44,14 +45,17 @@ export default function NewMap() {
     iconUrl: `${icon}`,
     iconSize: [38, 38],
   });
+
   return (
     <>
       <h3>A map to show them all</h3>
+      <p>Click on the map to show your current location</p>
       <MapContainer center={[45.76, 4.83]} zoom={5} scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
         />
+        <LocationMarker />
         {ExploringMap.map((loc) => (
           <Marker position={[loc.lat, loc.long]} icon={customPin} key={loc.loc}>
             <Popup>

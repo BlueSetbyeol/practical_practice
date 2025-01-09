@@ -8,6 +8,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 // Import the main app component
 import App from "./App";
 import TestOfApi from "./pages/TestOfApi/TestOfApi";
+import TestOfCors from "./pages/TestOfCors/TestOfCors";
 import TestOfMap from "./pages/TestOfMap/TestOfMap";
 
 // Import additional components for new routes
@@ -30,8 +31,12 @@ const router = createBrowserRouter([
         element: <TestOfMap />,
       },
       {
-        path: "/super-hero",
+        path: "/api",
         element: <TestOfApi />,
+      },
+      {
+        path: "/heros",
+        element: <TestOfCors />,
       },
     ],
   },

@@ -1,0 +1,11 @@
+.list0fProjects {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  list-style: none;
+}
+
+.list0fProjects a {
+  text-decoration: none;
+  color: white;
+}
