@@ -13,6 +13,9 @@ router.get("/api/items", itemActions.browse);
 router.get("/api/items/:id", itemActions.read);
 router.post("/api/items", itemActions.add);
 
+import mapActions from "./modules/map/mapActions";
+router.get("/api/explorations", mapActions.browse);
+
 /* ************************************************************************* */
 
 export default router;

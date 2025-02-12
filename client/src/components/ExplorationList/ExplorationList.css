@@ -1,0 +1,23 @@
+.exploring_card {
+  height: 10vh;
+  width: 94%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #468189;
+  border-radius: 12px;
+  background-color: black;
+}
+
+.exploring_card:hover {
+  color: #468189;
+}
+
+.city_image {
+  height: 2em;
+  border-radius: 5px;
+}
+
+.exploration_description {
+  text-align: left;
+}

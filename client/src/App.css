@@ -53,6 +53,8 @@ main {
   justify-content: center;
   align-items: center;
   height: 85vh;
+  width: 100vw;
+  padding: 0 3%;
 }
 
 hr {
@@ -65,4 +67,9 @@ footer {
   margin-top: 1vh;
   text-align: center;
   height: 4vh;
+}
+
+p {
+  font-size: 10px;
+  color: white;
 }
